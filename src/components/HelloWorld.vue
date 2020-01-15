@@ -40,6 +40,9 @@ export default {
   props: {
     msg: String,
   },
+  created() {
+    throw new Error('Errorr');
+  },
 };
 </script>
 
